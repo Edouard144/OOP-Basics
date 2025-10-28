@@ -6,7 +6,7 @@ public class Exercise01 {
         String copy = a.message;
 
         a.hello();   // returns message from the A class, not inherited / parent class
-        b.hello();   // returns hello function that was inherited 
+        b.hello();   // returns hello method that was inherited 
     }
     
 }
